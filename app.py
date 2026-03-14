@@ -4,7 +4,7 @@ import pandas as pd
 from io import BytesIO
 
 # 1. 화면 기본 설정
-st.set_page_config(page_title="민자사업 사업성 분석기", layout="wide")
+st.set_page_config(page_title="민자사업 사업성 분석", layout="wide")
 
 # --- 🎨 디자인 및 가독성 강화 (CSS) ---
 st.markdown("""
@@ -49,7 +49,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🛣️ 도로 민자사업(BTO) 사업성 분석기")
+st.title("🛣️ 도로 민자사업 사업성 분석")
 
 # 2. [메인 화면] 입력 구역
 st.subheader("⚙️ 사업 조건 입력")
